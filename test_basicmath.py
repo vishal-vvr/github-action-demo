@@ -9,7 +9,7 @@ class TestBasicMath(unittest.TestCase):
 
     def test_sub(self):
         self.assertEqual(math.sub(1,2), -1)
-        self.assertEqual(math.sub(-1,2), -3)
+        self.assertEqual(math.add(-1,2), -3)
 
     def test_mul(self):
         self.assertEqual(math.mul(1,2), 2)
